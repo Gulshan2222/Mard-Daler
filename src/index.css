@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: fam1;
+  src: url(../public/fonts/coolvetica/coolvetica\ rg.otf);
+}
+
+@font-face {
+  font-family: fam2;
+  src: url(../public/fonts/edgecutting/EdgecuttingLiteMedium.ttf);
+}
+
+@font-face {
+  font-family: fam3;
+  src: url(../public/fonts/highwayGothic/HWYGOTH.TTF);
+}
+
+@font-face {
+  font-family: fam4;
+  src: url(../public/fonts/lemonMilk/LEMONMILK-Regular.otf);
+}
+
+@font-face {
+  font-family: fam5;
+  src: url(../public/fonts/mont/Mont-ExtraLightDEMO.otf);
+}
+
+@font-face {
+  font-family: fam6;
+  src: url(../public/fonts/nexa/Nexa-ExtraLight.ttf);
+}
+
+@font-face {
+  font-family: fam7;
+  src: url(../public/fonts/rodfat/Rodfat\ two-Demo.ttf);
+}
+
+@font-face {
+  font-family: fam8;
+  src: url(../public/fonts/tangosans/TangoSans.ttf);
+}
+
+@font-face {
+  font-family: fam9;
+  src: url(../public/fonts/ttInterphasesPro/TT\ Interphases\ Pro\ Mono\ Trial\ Regular.ttf);
+}
+
+@font-face {
+  font-family: fam10;
+  src: url(../public/fonts/underrated/UNDERRATED-UltraBold\ Personal\ Use.otf);
+}
+
+*{
+  font-family: fam3;
+}
+
+h1{
+  font-family: fam7;
+}
+
+span{
+  font-family: inherit;
+}
+
+.shadow{
+  box-shadow: 2px 2px 0 0 rgb(245,158,11);
+}
+
+.shadow:hover{
+  transform: translate(-2px, -2px);
+  box-shadow: 4px 4px 0 0 rgb(245,158,11);
+}
+
+.spanStyling{
+  font-family: fam7;
+}
